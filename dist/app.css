@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4285f4;
+}
+
+header {
+  background-color: #33475b;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+aside {
+  background-color: #1db954;
+  padding: 16px;
+  margin: 16px;
+}
+
+h2 {
+  color: #fee101;
+}
+
+h3 {
+  color: #fee101;
+}
+
+div {
+  padding: 16px;
+}
+
+p {
+  color: white;
+}
+

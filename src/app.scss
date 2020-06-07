@@ -1,0 +1,49 @@
+$colore_principale: #4285f4;
+$colore_sfondi_laterali: #1db954;
+$colore_titoli_laterali: #fee101;
+$colore_testo_paragrafi: white;
+$padding_standard: 16px;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $colore_principale;
+}
+
+header {
+    background-color: #33475b;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+aside {
+    background-color: $colore_sfondi_laterali;
+    padding: $padding_standard;
+    margin: 16px;
+}
+
+h2 {
+    color: $colore_titoli_laterali;
+}
+
+h3 {
+    color: $colore_titoli_laterali;
+}
+
+div {
+    padding: $padding_standard;
+}
+
+p {
+    color: $colore_testo_paragrafi;
+}
